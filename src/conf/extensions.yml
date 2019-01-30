@@ -12,9 +12,9 @@ extensions:
 - source: https://github.com/eclipse/che-theia-dashboard-extension
   folders:
     - theia-dashboard-extension
-  checkoutTo: master
+  checkoutTo: 72a4c91db013384539ad445c075cc976fb147cf3
 - source: https://github.com/eclipse/che-theia-hosted-plugin-manager-extension
-  checkoutTo: master
+  checkoutTo: 8ce4335cb1c771a20059684eb88587c5ddfbc9ea
 - source: https://github.com/eclipse/che-theia-task-plugin
   folders:
     - che-theia-task-extension
@@ -22,10 +22,10 @@ extensions:
 - source: https://github.com/eclipse/che-theia-activity-tracker
   folders:
     - che-theia-activity-tracker
-  checkoutTo: master
-- source: https://github.com/eclipse/che-theia
+  checkoutTo: 62acd10a2f911af101154474c3ab1f1fd1b92c81
+- source: https://github.com/tjeske/che-theia
   folders:
     - extensions/eclipse-che-theia-plugin
     - extensions/eclipse-che-theia-plugin-ext
     - extensions/eclipse-che-theia-terminal
-  checkoutTo: master
+  checkoutTo: mydsl
